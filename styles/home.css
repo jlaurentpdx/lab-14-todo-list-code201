@@ -1,1 +1,13 @@
-/* add home page styles here */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    text-align: center;
+}
+
+button {
+    margin-top: 5vw;
+}
