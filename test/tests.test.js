@@ -1,6 +1,6 @@
-import {  } from '../app.js';
-import { logIn } from '../login/login.js';
-import { signUpNow } from '../login/register.js';
+// import {  } from '../app.js';
+// import { logIn } from '../login/login.js';
+// import { signUpNow } from '../login/register.js';
 
 // Functions to test(?): 
 //      findById, getUser, setUser, 
