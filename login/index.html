@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/login.css">
+    <title>Login / Register</title>
 </head>
 <body>
+    <header>
+        <h1>What</h1>
+        <h2>to-do</h2>
+    </header>
+    <main>
+        <form id="login-form">
+            <input type="text" placeholder="username">
+            <input type="text" placeholder="password">
+            <input type="text" class="hidden" placeholder="re-enter password">
+            <input type="text" class="hidden" placeholder="email">
+            <section>
+                <button>Login</button>
+                <button>Register</button>
+            </section>
+        </form>
+
+    </main>
     
     <script type="module" src="./login.js"></script>
     <script type="module" src="./register.js"></script>
