@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: linear-gradient(0deg, #9E829C, #B0C7BD);
+    background-attachment: fixed;
 }
 
 main {
